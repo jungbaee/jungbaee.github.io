@@ -36,7 +36,8 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
         <?php 
-            $productId = $customerId = $quantity = $orderPrice = $result = "";
+            $productId = 0;
+            $customerId = $quantity = $orderPrice = $result = "";
 
             if (isset($_GET['productId']) && isset($_GET['customerId']) && isset($_GET['quantity'])) {
 
